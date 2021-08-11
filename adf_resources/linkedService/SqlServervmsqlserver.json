@@ -1,0 +1,17 @@
+{
+	"name": "SqlServervmsqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=VanArsdelLtd;initial catalog=OnPremRentals",
+			"userName": "southridge",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MzU3YjYwMi00ZGI5LTRlNzYtYjM4Ny0yNjNjZWQ1Mzk2NmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimesql",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

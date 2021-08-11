@@ -1,0 +1,9 @@
+{
+	"name": "team3datafactory",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f031d0fb-aaa9-4b60-b473-be3507cbe865",
+		"tenantId": "6cc05d1c-6862-4b27-8dfe-89399a5f217f"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlstream",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabasestream",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

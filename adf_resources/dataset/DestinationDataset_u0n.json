@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_u0n",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoragecaffee",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "fourthcaffee",
+				"fileSystem": "openhack"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
